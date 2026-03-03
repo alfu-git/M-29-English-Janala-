@@ -28,9 +28,107 @@
     />
 
     <!-- font awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
-
+    <!-- header section -->
+    <header>
+      <section class="bg-[#BADEFF]/26">
+        <div class="container mx-auto px-5 py-1">
+          <div>
+            <div class="navbar">
+              <div class="navbar-start">
+                <div class="dropdown">
+                  <div
+                    tabindex="0"
+                    role="button"
+                    class="btn btn-ghost lg:hidden"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-5 w-5"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M4 6h16M4 12h8m-8 6h16"
+                      />
+                    </svg>
+                  </div>
+                  <ul
+                    tabindex="-1"
+                    class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+                  >
+                    <li>
+                      <a href="#" class="text-base text-primary font-semibold"
+                        ><i class="fa-solid fa-circle-question"></i> FAQ
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="text-base text-primary font-semibold">
+                        <i class="fa-solid fa-book-open"></i> Learn
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="text-base text-primary font-semibold"
+                        ><i class="fa-solid fa-arrow-right-from-bracket"></i>
+                        Logout</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <a href="#" class="flex items-center space-x-1">
+                  <span class="text-xl text-[#18181B] font-semibold"
+                    >English</span
+                  >
+                  <img
+                    class="w-9 h-9"
+                    src="./images/logo.png"
+                    alt="English Janala Logo"
+                  />
+                  <span class="text-xl text-[#000000]">জানালা</span>
+                </a>
+              </div>
+              <div class="navbar-end hidden lg:flex">
+                <ul class="menu menu-horizontal">
+                  <li>
+                    <a href="#"
+                      ><button class="btn btn-outline btn-primary">
+                        <i class="fa-solid fa-circle-question"></i> FAQ
+                      </button></a
+                    >
+                  </li>
+                  <li>
+                    <a href="#">
+                      <button class="btn btn-outline btn-primary">
+                        <i class="fa-solid fa-book-open"></i> Learn
+                      </button>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><button class="btn btn-outline btn-primary">
+                        <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                        Logout
+                      </button></a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
   </body>
 </html>
